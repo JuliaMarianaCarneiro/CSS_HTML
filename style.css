@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-color: #e4d7d7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333333;
+}
+
+header{
+    background-color: rgb(7, 172, 172);
+    color: rgb(247, 234, 234);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+main{
+    width: 400px;
+    margin: 60px auto;
+}
+
+.login{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.login h2{
+    text-align: center;
+    color: rgb(4, 105, 109);
+    margin-top: 0;
+}
+
+.descricao{
+    text-align: center;
+    color: #4b4848;
+    margin-bottom: 30px;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #078080;
+    box-sizing: border-box;   
+}
+
+button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+}
+
+.cadastro{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.cadastro a {
+    color: rgb(17, 90, 163);
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
